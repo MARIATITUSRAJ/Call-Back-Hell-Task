@@ -1,0 +1,25 @@
+#countdown{ 
+    margin-top: 8rem;
+    font-size: 7rem;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+    width: 98%; 
+    text-align: center; 
+    text-decoration-style: solid;
+    text-shadow: 3px 3px rgb(66, 50, 7);
+    
+}  
+
+@media screen and (max-width : 600px) { 
+    #countdown{ 
+    font-size: 10 rem;
+    }
+}
+
+@media screen and (min-width : 800px) { 
+    #countdown{ 
+    font-size: 10 rem;
+    color: rgb(241, 12, 12);
+    
+    }
+}
